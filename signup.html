@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <h1 style="padding-left: 50%">Sign Up</h1>
+    <form action="signup.html" method="post" name="signup_form">
+      <label for="username">Username</label>
+      <input type="text" name="username" />
+
+      <label for="email">Email</label>
+      <input type="text" name="email" />
+
+      <label for="password">Password</label>
+      <input type="text" name="password" />
+
+      <input type="submit" name="password" value="Sign up" />
+    </form>
+    <hr />
+    <br />
+
+    <form
+      action="signup.html"
+      method="get"
+      action="index.html"
+      name="test_form"
+    >
+      <input type="text" name="username" />
+
+      <input type="checkbox" />
+
+      <input type="color" />
+
+      <input type="button" value="Sign up" />
+
+      <input type="date" />
+
+      <!-- <input type="file" /> -->
+      <legend>Legend</legend>
+      <input type="image" />
+      <input type="month" />
+      <textarea name="" id="" cols="20" rows="1"></textarea>
+      <select name="" id="">
+        <optgroup label="Options number 1">
+          <option label="opt 1" value="">1</option>
+          <option label="opt 1.1" value="">1.1</option>
+        </optgroup>
+
+        <option label="opt 2" value="">2</option>
+        <option label="opt 3" value="">3</option>
+        <option label="opt 4" value="">4</option>
+        <option label="opt 5" value="">5</option>
+      </select>
+
+    <button type="submit" form="test_form" formmethod="get">Back</button>
+
+    <fieldset form="test_form">
+      <legend>Inputs</legend>
+      <input type="text" value="in1" />
+      <input type="text" value="in2" />
+      <input type="text" value="in3" />
+    </fieldset>
+    <hr>
+    <datalist> 
+
+
+    </datalist> 
+  </body>
+</html>
